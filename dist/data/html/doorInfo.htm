@@ -1,0 +1,30 @@
+<html>
+	<title>Viewing: {{Avatar.Name}}</title>
+	<body>
+        <h1><font color=c6c918>Door</font> {{Avatar.Name}} [{{Id}}]</h1>
+        <table>
+            <tr>
+                <td><button value="Refresh" action="bypass -h admin_refresh_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+                <td><button value="Open" action="bypass -h admin_open_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+                <td><button value="Close" action="bypass -h admin_close_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+            </tr>
+        </table><br1>
+        <font color=18c99a>Information</font>
+        <table>
+            <tr>
+                <td width=45 align=right><font color=c6c918>X</font></td>
+                <td width=70>{{Position.x}}</td>
+                <td width=45 align=right><font color=c6c918>Open</font></td>
+                <td width=70>{{Door.Open}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Y</font></td>
+                <td>{{Position.y}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Z</font></td>
+                <td>{{Position.z}}</td>
+            </tr>
+        </table>
+	</body>
+</html>

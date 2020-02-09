@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "type": "Weapon",
+    "name": "Short Sword",
+    "bodyPart": "rhand",
+    "weaponType": "SWORD",
+    "armorType": null,
+    "range": 40,
+    "weight": 1600,
+    "speed": 379
+  },
+  {
+    "id": 2,
+    "type": "Weapon",
+    "name": "Long Sword",
+    "bodyPart": "rhand",
+    "weaponType": "SWORD",
+    "armorType": null,
+    "range": 40,
+    "weight": 1560,
+    "speed": 379
+  },
+  {
+    "id": 3,
+    "type": "Weapon",
+    "name": "Broadsword",
+    "bodyPart": "rhand",
+    "weaponType": "SWORD",
+    "armorType": null,
+    "range": 40,
+    "weight": 1590,
+    "speed": 379
+  }
+]

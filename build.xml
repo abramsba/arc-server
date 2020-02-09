@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<project name="arc" default="compile" basedir=".">
+  <property name="src.dir" location="src"/>
+  <property name="bin.dir" location="build"/>
+  <property name="lib.dir" location="lib"/>
+  <property name="dist.dir" location="dist"/>
+
+  <path id="classpath">
+    <fileset dir="${lib.dir}"/>
+  </path>
+
+  <target name="init">
+    <tstamp/>
+    <mkdir dir="${bin.dir}"/>
+  </target>
+
+  <target name="clean">
+    <delete dir="${bin.dir}"/>
+  </target>
+
+  <!-- Compiles the sources -->
+  <target name="compile" depends="clean, init">
+    <pathconvert property="classpathProp" refId="classpath"/>
+    <javac srcdir="${src.dir}" destdir="${bin.dir}" classpathref="classpath" includeantruntime="false">
+      <classpath refid="classpath"/>
+    </javac>
+    <antcall target="compile-login"/>
+    <antcall target="compile-gameserver"/>
+  </target>
+
+  <!-- packages a jar file for the login server -->
+  <target name="compile-login">
+    <mkdir dir="${bin.dir}/jar"/>
+    <jar destfile="${bin.dir}/jar/login.jar" basedir="build">
+      <zipgroupfileset dir="${lib.dir}"/>
+      <manifest>
+        <attribute name="Main-Class" value="be.leukspul.arc.server.LoginServer"/>
+        <attribute name="Class-Path" value="${classpath.name}"/>
+      </manifest>
+    </jar>
+    <copy file="build/jar/login.jar" tofile="dist/login.jar"/>
+  </target>
+
+  <!-- packages a jar file for the game server -->
+  <target name="compile-gameserver">
+    <mkdir dir="${bin.dir}/jar"/>
+    <jar destfile="${bin.dir}/jar/game.jar" basedir="build">
+      <zipgroupfileset dir="${lib.dir}"/>
+      <manifest>
+        <attribute name="Main-Class" value="be.leukspul.arc.server.GameServer"/>
+        <attribute name="Class-Path" value="${classpath.name}"/>
+      </manifest>
+    </jar>
+    <copy file="build/jar/game.jar" tofile="dist/game.jar"/>
+  </target>
+
+
+
+</project>

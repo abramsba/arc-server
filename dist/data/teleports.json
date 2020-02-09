@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Giran",
+    "position": {
+      "x": 87069,
+      "y": 148663,
+      "z": -3427,
+      "heading": 32767
+    }
+  },
+  {
+    "name": "Dion",
+    "position": {
+      "x": 18646,
+      "y": 145295,
+      "z": -3150,
+      "heading": 0
+    }
+  },
+  {
+    "name": "Heine",
+    "position": {
+      "x": 111388,
+      "y": 219413,
+      "z": -3572,
+      "heading": 15711
+    }
+  },
+  {
+    "name": "Oren",
+    "position": {
+      "x": 82621,
+      "y": 55646,
+      "z": -1551,
+      "heading": -3742
+    }
+  },
+  {
+    "name": "Aden",
+    "position": {
+      "x": 147460,
+      "y": 27488,
+      "z": -2230,
+      "heading": 14433
+    }
+  },
+  {
+    "name": "Hunters",
+    "positions": {
+      "x": 116609,
+      "y": 76234,
+      "z": -27555,
+      "heading": 31634
+    }
+  },
+  {
+    "name": "Goddard",
+    "position": {
+      "x": 147699,
+      "y": -55507,
+      "z": -2759,
+      "heading": -16383
+    }
+  },
+  {
+    "name": "Rune",
+    "position": {
+      "x": 43654,
+      "y": -48057,
+      "z": -823,
+      "heading": 32767
+    }
+  },
+  {
+    "name": "Gludio",
+    "position": {
+      "x": -14372,
+      "y": 123544,
+      "z": -3143,
+      "heading": -24575
+    }
+  },
+  {
+    "name": "Gludin",
+    "position": {
+      "x": -82016,
+      "y": 150870,
+      "z": -3155,
+      "heading": 29411
+    }
+  },
+  {
+    "name": "Elven Village",
+    "position": {
+      "x": 45387,
+      "y": 50109,
+      "z": -3086,
+      "heading": -15982
+    }
+  },
+  {
+    "name": "Dark Elven Village",
+    "position": {
+      "x": 10600,
+      "y": 17043,
+      "z": -4610,
+      "heading": -1454
+    }
+  },
+  {
+    "name": "Schuttgart",
+    "position": {
+      "x": 87369,
+      "y": -143420,
+      "z": -1319,
+      "heading": 15516
+    }
+  },
+  {
+    "name": "Dwarven Village",
+    "position": {
+      "x": 116321,
+      "y": -179488,
+      "z": -1127,
+      "heading": 11205
+    }
+  },
+  {
+    "name": "Orc Village",
+    "position": {
+      "x": -44237,
+      "y": -113607,
+      "z": -265,
+      "heading": -325
+    }
+  }
+]

@@ -1,0 +1,257 @@
+{
+	"general": [
+		{
+			"name": "Nudist",
+			"description": "{{name}} prefers not to wear clothing",
+			"conflicts": []
+		},
+		{
+			"name": "Bloodlust",
+			"description": "{{name}} likes to inflict pain onto others and is not bothered by death.",
+			"conflicts": []
+		},
+		{
+			"name": "Kind",
+			"description": "{{name}} will never use insults.",
+			"conflicts": [
+				"Abrasive",
+				"Psychopath"
+			]
+		},
+		{
+			"name": "Psychopath",
+			"description": "{{name}} has no empathy.",
+			"conflicts": []
+		},
+		{
+			"name": "Cannibal",
+			"description": "{{name}} prefers meat of their own race.",
+			"conflicts": []
+		},
+		{
+			"name": "Abrasive",
+			"description": "{{name}} will speak their mind without holding back.",
+			"conflicts": []
+		},
+		{
+			"name": "Savant",
+			"description": "{{name}} is very intelligent, but can't deal with stress.",
+			"conflicts": [
+				"Nerves"
+			]
+		},
+		{
+			"name": "Handy",
+			"description": "{{name}} will pick up skills faster than others.",
+			"conflicts": []
+		},
+		{
+			"name": "Nimble",
+			"description": "{{name}} can dodge attacks much more easily.",
+			"conflicts": []
+		},
+		{
+			"name": "Brawler",
+			"description": "{{name}} want to fight with a melee weapon.",
+			"conflicts": [
+				"Trigger Happy",
+				"Steady Aim",
+				"Wimp"
+			]
+		},
+		{
+			"name": "Masochist",
+			"description": "{{name}} likes being hurt.",
+			"conflicts": [
+				"Wimp"
+			]
+		},
+		{
+			"name": "Race Dysphoria",
+			"description": "{{name}} feels like they're in the wrong body.",
+			"conflicts": []
+		},
+		{
+			"name": "Night Owl",
+			"description": "{{name}} sleeps during the day and is active at night.",
+			"conflicts": []
+		},
+		{
+			"name": "Greedy",
+			"description": "{{name}} wants to acquire as much capital as possible.",
+			"conflicts": [
+				"Jealous",
+				"Ascetic"
+			]
+		},
+		{
+			"name": "Jealous",
+			"description": "{{name}} feels degraded when others around are doing better.",
+			"conflicts": [
+				"Greedy",
+				"Ascetic"
+			]
+		},
+		{
+			"name": "Ascetic",
+			"description": "{{name}} prefers to live a poor life style.",
+			"conflicts": [
+				"Greedy",
+				"Jealous"
+			]
+		},
+		{
+			"name": "Gay",
+			"description": "{{name}} is attracted to the same sex.",
+			"conflicts": []
+		},
+		{
+			"name": "Misandrist",
+			"description": "{{name}} distrusts men.",
+			"conflicts": [
+				"Psychopath"
+			]
+		},
+		{
+			"name": "Misogynist",
+			"description": "{{name}} distrusts women.",
+			"conflicts": [
+				"Psychopath"
+			]
+		},
+		{
+			"name": "Tough",
+			"description": "{{name}} is much more difficult to hurt than others.",
+			"conflicts": []
+		},
+		{
+			"name": "Annoying Voice",
+			"description": "{{name}} is annoying to listen too. Others are more likely to dislike {{name}}.",
+			"conflicts": []
+		},
+		{
+			"name": "Wimp",
+			"description": "{{name}} is weak and cowardly.",
+		},
+		{
+			"name": "Xenophobic",
+			"description": "{{names}} hates races that are different than his."
+		}
+	],
+	"drug": [
+		{
+			"name": "Addict",
+			"description": "{{name}} will consume as many drugs as they can get their hands on, even going so far as to disregard their own health."
+		},
+		{
+			"name": "Abuser",
+			"description": "{{name}} uses drugs more frequently than the average recreational user."
+		},
+		{
+			"name": "Abstain",
+			"description": "{{name}} refuses to use any mind altering substances."
+		}
+	],
+	"industry": [
+		{
+			"name": "Industrious",
+			"description": "{{name}} can stay focused and get things done much faster than the average person."
+		},
+		{
+			"name": "Hard Working",
+			"description": "{{name}} works faster than the average person."
+		},
+		{
+			"name": "Lazy",
+			"description": "{{name}} is a bit lazy and works slower than others."
+		},
+		{
+			"name": "Sloth",
+			"description": "{{name}} loves being idle and enjoys not being productive."
+		}
+	],
+	"speed": [
+		{
+			"name": "Quick",
+			"description": "{{name}} always wants to be the first one to arrive."
+		},
+		{
+			"name": "Slow",
+			"description": "{{name}} moves slower than others."
+		}
+	],
+	"mood": [
+		{
+			"name": "Sanguine",
+			"description": "{{name}} is always upbeat no matter how terrible the situation."
+		},
+		{
+			"name": "Optimist",
+			"description": "{{name}} is naturally optimistic."
+		},
+		{
+			"name": "Pessimist",
+			"description": "{{name}} sees the glass half empty."
+		},
+		{
+			"name": "Depressive",
+			"description": "{{name}} is always unhappy."
+		}
+	],
+	"nerves": [
+		{
+			"name": "Iron Will",
+			"description": "{{name}} can hold true through thick and thin, even in the worst of situations."
+		},
+		{
+			"name": "Steadfast",
+			"description": "{{name}} can handle stress that would crack most others."
+		},
+		{
+			"name": "Nervous",
+			"description": "{{name}} cracks easily under pressure."
+		},
+		{
+			"name": "Volatile",
+			"description": "{{name}} cracks at the first sign of pressure."
+		}
+	],
+	"neurotic": [
+		{
+			"name": "Neurotic",
+			"description": "{{name}} workers harder than others to keep affairs in order, but breaks more easily under pressure."
+		},
+		{
+			"name": "Very Neurotic",
+			"description": "{{name}} is constantly nervous about everything that has to be done."
+		},
+	],
+	"archery": [
+		{
+			"name": "Steady Aim",
+			"description": "{{name}} takes more time to aim, but hits the target more frequently"
+		},
+		{
+			"name": "Trigger Happy",
+			"description": "{{name}} shoots faster but less accurate."
+		}
+	],
+	"beauty": [
+		{
+			"name": "Beautiful",
+			"description": "Everybody enjoys looking at {{name}} and will like them before even talking to them."
+		},
+		{
+			"name": "Pretty",
+			"description": "Others are predisposed to like {{name}}."
+		},
+		{
+			"name": "Unattractive",
+			"description": "{{name}} slightly repels others in social situations."
+		},
+		{
+			"name": "Ugly",
+			"description": "{{name}} is unpleasent to look and interact with."
+		}
+	]
+}

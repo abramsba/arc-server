@@ -1,0 +1,101 @@
+[
+  {
+    "classId": 0,
+    "heightFemale": 23.5,
+    "heightMale": 23,
+    "raceId": 0,
+    "radiusFemale": 8,
+    "radiusMale": 9,
+    "runSpeed": 115,
+    "walkSpeed": 80,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 10,
+    "heightFemale": 22.5,
+    "heightMale": 22.8,
+    "raceId": 0,
+    "radiusFemale": 6.5,
+    "radiusMale": 7.5,
+    "runSpeed": 120,
+    "walkSpeed": 78,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 18,
+    "heightFemale": 23,
+    "heightMale": 24,
+    "raceId": 1,
+    "radiusFemale": 7.5,
+    "radiusMale": 7.5,
+    "runSpeed": 125,
+    "walkSpeed": 90,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 25,
+    "heightFemale": 23,
+    "heightMale": 24,
+    "raceId": 1,
+    "radiusFemale": 7.5,
+    "radiusMale": 7.5,
+    "runSpeed": 122,
+    "walkSpeed": 85,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 31,
+    "heightFemale": 23,
+    "heightMale": 24,
+    "raceId": 2,
+    "radiusFemale": 7.5,
+    "radiusMale": 7.5,
+    "runSpeed": 122,
+    "walkSpeed": 85,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 38,
+    "heightFemale": 23,
+    "heightMale": 24,
+    "raceId": 2,
+    "radiusFemale": 7.5,
+    "radiusMale": 7.5,
+    "runSpeed": 122,
+    "walkSpeed": 85,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 44,
+    "heightFemale": 27,
+    "heightMale": 28,
+    "raceId": 3,
+    "radiusFemale": 7,
+    "radiusMale": 11,
+    "runSpeed": 117,
+    "walkSpeed": 70,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 49,
+    "heightFemale": 25.5,
+    "heightMale": 27.5,
+    "raceId": 3,
+    "radiusFemale": 8,
+    "radiusMale": 7,
+    "runSpeed": 121,
+    "walkSpeed": 70,
+    "swimSpeed": 50
+  },
+  {
+    "classId": 53,
+    "heightFemale": 19,
+    "heightMale": 18,
+    "raceId": 4,
+    "radiusFemale": 5,
+    "radiusMale": 9,
+    "runSpeed": 115,
+    "walkSpeed": 80,
+    "swimSpeed": 50
+  }
+]

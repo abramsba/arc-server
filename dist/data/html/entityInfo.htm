@@ -1,0 +1,79 @@
+<html>
+	<title>Viewing: {{Avatar.Name}}</title>
+	<body>
+        <h1><font color=c6c918>Entity</font> {{Avatar.Name}} [{{Id}}]</h1>
+        <table>
+            <tr>
+                <td><button value="Delete" action="bypass -h admin_delete_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"><br1></td>
+                <td><button value="Stop AI" action="bypass -h admin_stop_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"><br1></td>
+                <td><button value="Run" action="bypass -h admin_run_{{Id}}_ $taskType" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"><br1></td>
+                <td><combobox width=80 var="taskType" list="Wander;Sit;Stand"></td>
+            </tr>
+        </table><br1>
+        <font color=18c99a>Tasks</font>
+        <button value="Refresh" action="bypass -h admin_refresh_{{Id}}" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2">
+        <table>
+        {{#Task}}
+            <tr>
+                <td><button value="" action="bypass -h admin_cancel_{{Id}}_{{index}}" width=16 height=16 back="L2UI.bbs_delete_down" fore="L2UI.bbs_delete"></td>
+                <td width=200>{{instance}}</td>
+            </tr>
+        {{/Task}}<br>
+        </table>
+        <font color=18c99a>Information</font>
+        <table>
+            <tr>
+                <td width=45 align=right><font color=c6c918>X</font></td>
+                <td width=70>{{Position.x}}</td>
+                <td width=45 align=right><font color=c6c918>Race</font></td>
+                <td width=70>{{Avatar.Race}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Y</font></td>
+                <td>{{Position.y}}</td>
+                <td align=right><font color=c6c918>Gender</font></td>
+                <td>{{Avatar.Gender}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Z</font></td>
+                <td>{{Position.z}}</td>
+                <td align=right><font color=c6c918>Walking</font></td>
+                <td>{{Avatar.Walking}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Radians</font></td>
+                <td>{{Direction.radians}}</td>
+                <td align=right><font color=c6c918>Sitting</font></td>
+                <td>{{Avatar.Sitting}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Heading</font></td>
+                <td>{{Direction.heading}}</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>Health</font></td>
+                <td>{{Vitals.Health}} / 100</td>
+                <td align=right><font color=c6c918>Hunger</font></td>
+                <td>{{Vitals.Hunger}} / 100</td>
+            </tr>
+        </table><br>
+        <table>
+            <tr>
+                <td align=right width=45><font color=c6c918>STR</font></td>
+                <td width=45>99</td>
+                <td align=right width=45><font color=c6c918>DEX</font></td>
+                <td width=45>99</td>
+                <td align=right width=45><font color=c6c918>CON</font></td>
+                <td width=45>99</td>
+            </tr>
+            <tr>
+                <td align=right><font color=c6c918>INT</font></td>
+                <td>99</td>
+                <td align=right><font color=c6c918>WIT</font></td>
+                <td>99</td>
+                <td align=right><font color=c6c918>MEN</font></td>
+                <td>99</td>
+            </tr>
+        </table>
+	</body>
+</html>

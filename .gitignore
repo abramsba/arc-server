@@ -1,0 +1,9 @@
+.idea/
+*.iml
+out/
+target/
+build/
+dist/game.jar
+dist/login.jar
+dist/data/geodata/*.l2d
+dist/config.json
